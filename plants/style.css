@@ -1,0 +1,12 @@
+header {
+    background: #EDF2EC;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+}
+.nav li {
+    list-style-type: none;
+}
