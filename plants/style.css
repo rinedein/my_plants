@@ -1,12 +1,13 @@
 header {
     background: #EDF2EC;
     max-width: 1440px;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
-.nav {
+.navbar {
     display: flex;
 }
-.nav li {
+li {
     list-style-type: none;
 }
