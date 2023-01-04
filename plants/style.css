@@ -1,13 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header {
     background: #EDF2EC;
-    max-width: 1440px;
-    justify-content: center;
-    align-items: center;
 }
-
+.header__container {
+    padding: 42px 109px 42px 111px;
+    max-width: 1440px;
+}
 .navbar {
     display: flex;
+    max-width: 1220px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    column-gap: 1.05px;
+    align-items: baseline;
+}
+.logo__img {
+    width: 20px;
+    height: 20px;
+}
+.logo__title {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
 }
 li {
     list-style-type: none;
+}
+.list {
+    display: flex;
+    align-items: center;
+    column-gap: 46px;
+}
+.list__item {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: #010201;
 }
